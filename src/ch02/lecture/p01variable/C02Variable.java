@@ -16,6 +16,6 @@ public class C02Variable {
         // lowerCamelCase ( 자바 변수명 관습 )
         // UpperCamelCase ( 자바 클래스명 관습 )
 
-        //kebab-case ( 기타 등등 )
+        //kebab-case ( 기타 등등 ) .
     }
 }
