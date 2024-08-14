@@ -28,10 +28,16 @@ public class C01Type {
 //        byte b3 = 128; // x
 //        byte b4 = -129; // x
         
-        int v1 = 214783467;
+        int v1 = 2147483647;
         System.out.println("v1 = " + v1);
 
         System.out.println(v1 + 1);
+
+        // long (8byte)
+        // 4byte 이상의 수 작성 시 끝에 L 붙이기
+        long v2 = 2147483647000000L;
+        long v3 = 2147_4836_4700_0000L;
+        long v4 = 2_147_483_647_000_000L;
 
     }
 }
