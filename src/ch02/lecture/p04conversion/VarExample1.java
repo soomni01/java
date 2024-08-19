@@ -1,4 +1,4 @@
-package ch02.lecture.sec01;
+package ch02.lecture.p04conversion;
 
 public class VarExample1 {
     public static void main(String[] args) {
