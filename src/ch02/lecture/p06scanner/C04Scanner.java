@@ -13,8 +13,8 @@ public class C04Scanner {
         System.out.print("수2>");
         String num2 = scanner.nextLine();
 
-        float n1 = Float.parseFloat(num1);
-        float n2 = Float.parseFloat(num2);
+        double n1 = Double.parseDouble(num1);
+        double n2 = Double.parseDouble(num2);
 
         System.out.println("더한 결과" + (n1 + n2));
     }
