@@ -2,7 +2,7 @@ package ch03.sec02;
 
 public class ArithmeticOperatorExample {
     public static void main(String[] args) {
-        byte v1 = 20;
+        byte v1 = 10;
         byte v2 = 4;
         int v3 = 5;
         long v4 = 10L;
