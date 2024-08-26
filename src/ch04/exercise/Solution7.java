@@ -19,6 +19,7 @@ public class Solution7 {
 
             switch (menu) {
                 case 1 -> {
+                    
                     System.out.print("예금액>");
                     int money = scanner.nextInt();
                     balance += money;
