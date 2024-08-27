@@ -1,6 +1,4 @@
-package ch06.sec08.exam02;
-
-import ch06.sec08.exam02.Calculator;
+package ch06.sec08.exam04;
 
 public class CalculatorExample {
     public static void main(String[] args) {
