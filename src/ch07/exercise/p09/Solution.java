@@ -1,4 +1,4 @@
-package ch07.exericse.p09;
+package ch07.exercise.p09;
 
 public class Solution {
     public static void main(String[] args) {
