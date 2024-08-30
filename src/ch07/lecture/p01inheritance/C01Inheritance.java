@@ -1,6 +1,7 @@
 package ch07.lecture.p01inheritance;
 
-public class C01Inheritance {
+public class
+C01Inheritance {
     public static void main(String[] args) {
         SubMyClass02 o = new SubMyClass02();
         o.age = 33;
