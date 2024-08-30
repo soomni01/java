@@ -35,7 +35,7 @@ class Fish8 extends Animal8 {
 class Bear8 extends Animal8 {
     @Override
     public void breathe() {
-        System.out.println("아가미 호흡");
+        System.out.println("호흡");
     }
 
     public void hunt() {
