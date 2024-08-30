@@ -9,8 +9,8 @@ public class C08Polymorphism {
     }
 
     public static void living(Animal8 a) {
-        a.breathe();
-//        a.swim(); // x
+        a.breathe(); // 오버라이딩 된 것 실행
+//        a.swim(); // x 자식메소드 불가
 //        a.hunt(); // x
     }
 }
