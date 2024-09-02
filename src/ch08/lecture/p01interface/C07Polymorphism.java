@@ -10,6 +10,7 @@ public class C07Polymorphism {
         t.append("ja");
         t.append("va");
 
+
         boolean b1 = s.contains(t);
 
         System.out.println("b1 = " + b1);
