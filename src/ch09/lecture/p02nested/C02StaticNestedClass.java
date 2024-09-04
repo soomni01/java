@@ -1,5 +1,6 @@
 package ch09.lecture.p02nested;
 
+
 public class C02StaticNestedClass {
     public static void main(String[] args) {
         MyClass2.Nested2 o = new MyClass2.Nested2();
