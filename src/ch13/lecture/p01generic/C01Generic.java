@@ -11,6 +11,7 @@ public class C01Generic {
         box.setItem(900);
         Integer i = box.getItem();
         System.out.println("i = " + i);
+        
     }
 }
 
