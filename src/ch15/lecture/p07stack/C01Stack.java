@@ -26,6 +26,7 @@ public class C01Stack {
         // size : 원소 수
         int size = stack.size();
         System.out.println("size = " + size);
+        
         // peek : 마지막 원소 확인
         String item3 = stack.peek();
         System.out.println("item3 = " + item3);
