@@ -12,6 +12,15 @@ public class Example {
                 new Member("감자바", 26)
         );
 
+        // 고전적 방법
+        double avg1 = 0.0;
+        for (Member member : list) {
+            avg1 += member.getAge();
+        }
+        avg1 /= list.size();
+        ;
+        System.out.println("avg = " + avg1);
+
         double avg = list.stream()
                 .collect(
                         Collectors.averagingDouble(Member::getAge)
