@@ -20,15 +20,15 @@ public class Student {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return studentNum == student.studentNum;
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Student)) return false;
+        Student student = (Student) obj;
+        if (studentNum != student.studentNum) return false;
+        return true;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(studentNum);
+        return studentNum;
     }
 }
