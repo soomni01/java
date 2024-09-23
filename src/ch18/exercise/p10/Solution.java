@@ -29,7 +29,7 @@ public class Solution {
                     // 복사
                     FileInputStream fis = new FileInputStream(sourceFile);
                     FileOutputStream fos = new FileOutputStream(copyFile);
-
+ 
                     BufferedInputStream is = new BufferedInputStream(fis);
                     BufferedOutputStream os = new BufferedOutputStream(fos);
 
